@@ -1,0 +1,19 @@
+{
+    "name": "elasticsearch-angular-example",
+    "version": "0.0.1",
+    "authors": [
+        "Eniz Gülek <enizgulek@gmail.com>"
+    ],
+    "description": "A simple example with angular.js and elasticsearch.js client",
+    "main": "index.html",
+    "keywords": [
+        "elasticsearch"
+    ],
+    "license": "Apache 2.0",
+    "private": true,
+    "dependencies": {
+        "elasticsearch": "~2.3.0",
+        "angular": "~1.2.20",
+        "bootstrap": "~3.2.0"
+    }
+}
