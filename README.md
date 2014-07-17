@@ -29,3 +29,37 @@ In order to run this example, you will need to have the following installed
   ```
 
 4. Open the index.html file in your browser.
+
+## Some Notes
+
+1. Restful Interface 
+
+  ```sh
+  curl -XGET 'http://localhost:9200/'
+  ```
+  
+2. Create Index
+
+  ```sh
+  curl -XPUT 'http://localhost:9200/test_index'
+  ```
+  
+3. Index a document
+
+  ```sh
+  curl -XPUT 'http://localhost:9200/test_index/test/' -d @testdata.json
+  ```
+  
+4. Cluster Status
+
+  ```sh
+  curl -XGET 'http://localhost:9200/_status'
+  ```
+  
+5. Delete Index
+
+  ```sh
+  curl -XDELETE 'http://localhost:9200/test_index'
+  ```
+  
+  
