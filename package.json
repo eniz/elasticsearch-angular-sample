@@ -1,0 +1,27 @@
+{
+    "name": "elasticsearch-angular-sample",
+    "version": "0.0.0",
+    "description": "Elastic Search and Angular.js Basic Example",
+    "main": "Gruntfile.js",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:enzglk/elasticsearch-angular-sample.git"
+    },
+    "keywords": [
+        "Elastic Search",
+        "Angular.js",
+        "Bootstrap"
+    ],
+    "author": "Eniz Gülek",
+    "license": "BSD",
+    "bugs": {
+        "url": "https://github.com/enzglk/elasticsearch-angular-sample/issues"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-contrib-jshint": "~0.10.0",
+        "grunt-contrib-uglify": "~0.5.0",
+        "grunt-contrib-cssmin": "~0.10.0",
+        "grunt-contrib-watch": "~0.5.2"
+    }
+}
